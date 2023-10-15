@@ -1,0 +1,107 @@
+.start{
+    background-color: #eefff4;
+border-radius: 8px 8px 0px 0px;
+height: 50px;
+top: 0;
+left: 0;
+}
+.starttext{
+    color: #008944;
+    font-family: "IBM Plex Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    /* left: 0; */
+    letter-spacing: 0;
+    line-height: 16px;
+    /* position: fixed; */
+    text-align: center;
+    /* top: 0; */
+    white-space: nowrap;
+    padding-top: 17px;
+}
+
+.cracc{
+    color: #000000;
+    font-family: "IBM Plex Sans-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    /* left: 0; */
+    /* letter-spacing: 0; */
+    line-height: normal;
+    /* position: fixed; */
+    /* top: 0; */
+}
+.signin{
+    /* color: transparent; */
+    /* color: transparent; */
+font-family: "IBM Plex Sans-Regular", Helvetica;
+font-size: 13px;
+font-weight: 400;
+/* left: 0; */
+/* letter-spacing: 0; */
+line-height: normal;
+/* position: fixed; */
+text-align: right;
+  
+    float: right;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+
+}
+
+.formpalceholder{
+    color: #898989;
+font-family: "IBM Plex Sans-Medium", Helvetica;
+font-size: 15px;
+font-weight: 500;
+}
+
+.firstbutton{
+    
+    color: #ffffff;
+font-family: "IBM Plex Sans-SemiBold", Helvetica;
+font-size: 14px;
+font-weight: 600;
+}
+.buttontext{
+    color: #000000;
+font-family: "IBM Plex Sans-Regular", Helvetica;
+font-size: 14px;
+font-weight: 400;
+}
+.forgottext{
+    color: #000000;
+font-family: "IBM Plex Sans-Medium", Helvetica;
+font-size: 12px;
+font-weight: 500;
+/* left: 0; */
+letter-spacing: -0.1px;
+line-height: 16px;
+/* position: fixed; */
+text-align: center;
+/* top: 0; */
+width: 317px;
+}
+.mfirstbutton{
+    color: #ffffff;
+font-family: "IBM Plex Sans-SemiBold", Helvetica;
+font-size: 13px;
+font-weight: 600;
+
+}
+
+.mfooter{
+    color: #212529;
+font-family: "IBM Plex Sans-Regular", Helvetica;
+font-size: 11px;
+font-weight: 400;
+/* left: 0; */
+letter-spacing: -0.09px;
+line-height: 16px;
+/* position: fixed; */
+text-align: center;
+/* top: 0; */
+/* top: 50%; */
+/* left: 50%; */
+width: 240px;
+}

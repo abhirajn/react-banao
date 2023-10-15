@@ -1,0 +1,103 @@
+.card1text{
+    color: #000000;
+font-family: "IBM Plex Sans-Medium", Helvetica;
+font-size: 18px;
+font-weight: 500;
+/* left: 0; */
+/* letter-spacing: 0; */
+/* line-height: normal; */
+/* position: fixed; */
+/* top: 0; */
+}
+
+.card1title{
+    color: #000000;
+font-family: "IBM Plex Sans-SemiBold", Helvetica;
+font-size: 22px;
+font-weight: 600;
+/* left: 0; */
+/* letter-spacing: 0; */
+line-height: 29.5px;
+/* position: fixed; */
+/* top: 0; */
+}
+
+.carddes{
+    color: #5b5b5b;
+font-family: "IBM Plex Sans-Regular", Helvetica;
+font-size: 19px;
+font-weight: 400;
+/* left: 0; */
+/* letter-spacing: 0; */
+line-height: 25.5px;
+/* position: fixed; */
+/* top: 0; */
+}
+
+.cardimg{
+    height: 48px;
+/* left: 0; */
+object-fit: cover;
+/* position: fixed; */
+/* top: 0; */
+width: 48px;
+}
+.username{
+    color: #000000;
+font-family: "IBM Plex Sans-SemiBold", Helvetica;
+font-size: 18px;
+font-weight: 600;
+/* left: 0;/ */
+letter-spacing: 0;
+line-height: normal;
+/* float: left; */
+/* position: fixed; */
+/* top: 0; */
+}
+
+.views{
+    color: #525252;
+font-family: "IBM Plex Sans-Medium", Helvetica;
+font-size: 14px;
+font-weight: 500;
+/* display: flex; */
+/* justify-content: flex-end; */
+float: right;
+}
+.userdiv{
+    float: left;
+}
+
+@media only screen and (min-width: 780px) {
+    .card{
+        height: 472px;
+        width: 692px
+    }
+}
+@media only screen and (max-width: 780px) {
+    .card {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .cardimgg{
+        height: 220px;
+        width: 692px;
+    }
+}
+ /* @media only screen and (min-width: 600px) {
+    .cardimgg{
+        height: 160px;
+        width: 100%;
+    }
+   }  */
+ @media only screen and (max-width: 800px) {
+    .cardimgg{
+        height: 120px;
+        /* width: 100%; */
+    }
+  } 
+  
+  

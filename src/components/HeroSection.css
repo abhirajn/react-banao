@@ -1,0 +1,97 @@
+.optionword{
+    color: #898989;
+    font-family: "IBM Plex Sans-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.firstword{
+    color: #000000;
+font-family: "IBM Plex Sans-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+}
+
+.writepostbutton{
+    /* background: none; */
+border: 0;
+color: #000000;
+font-family: "IBM Plex Sans-Medium", Helvetica;
+font-size: 15px;
+font-weight: 500;
+height: 20px;
+/* left: 0; */
+/* letter-spacing: 0; */
+line-height: normal;
+/* padding: 0; */
+/* position: fixed; */
+/* top: 0; */
+/* width: 83px; */
+}
+.joinbutton{
+    color: #ffffff;
+font-family: "IBM Plex Sans-Medium", Helvetica;
+font-size: 15px;
+font-weight: 500;
+}
+.container {
+    width: 100%;
+
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .textonphoto{
+    position: absolute;
+    color: #ffffff;
+    font-family: "IBM Plex Sans-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    bottom: 150px;
+    left: 240px;
+  }
+
+  .heroimg{
+    /* height: 440px; */
+    height: auto;
+/* left: 0; */
+/* object-fit: cover; */
+/* position: fixed; */
+/* top: 0; */
+width: 100%;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .heroimg{
+        height: 472px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .heroimg{
+    height: 400px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .heroimg{
+    height: 300px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+    .heroimg{
+      height: 200px;
+      width: 100%;
+    }
+  }
+
+.optiondiv{
+  margin-top: 10px;
+}  
+
+@media only screen and (min-width: 800px) {
+  .fullhero{
+      margin-left: 180px;
+  }
+}
